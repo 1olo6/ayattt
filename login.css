@@ -1,0 +1,89 @@
+:root{
+    --prymarycolor: #ff274b;
+    --secondprymary: #f7bcf7;
+    --bgcolor-1: #171e1c;
+    --bgcolor-2: #22282a;
+    --lightcolor: #ffffff;
+    --space: 8%;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    color: var(--lightcolor);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+body{
+    background-color: var(--bgcolor-2);
+}
+
+span{
+    color: var(--prymarycolor);
+    }
+    nav{
+        padding: var(--space);
+        
+        
+    }
+    .login1{
+        position: absolute;
+        top: 40px;
+        left: 38%;
+        font-size: 45px;
+        
+    }
+    .login{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        width: 300px;
+        height: 420px;
+        background-color: rgba(255, 255, 255, 0.055);
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    h2{
+        margin-top: 40px;
+        text-align: center;
+        color: var(--lightcolor);
+    }
+    input{
+        position: absolute;
+        outline: none;
+        border: none;
+        width: 200px;
+        height: 25px;
+        background-color: transparent;
+        border-bottom: var(--prymarycolor) solid 1px;
+        background: none;
+        padding: 5px;
+        color: var(--lightcolor);
+    }
+    input[type="username"]{
+        top: 120px;
+        left: 45px;
+    }
+    input[type="password"]{
+        top: 170px;
+        left: 45px;
+    }
+    .btn{
+        text-decoration: none;
+        text-transform: capitalize;
+        position: absolute;
+        top: 250px;
+        left: 115px;
+        border: 2px solid var(--prymarycolor);
+        background-color: var(--prymarycolor);
+        border-radius: 15px;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        transition: 00.4s;
+    }
+.btn:hover{
+    background-color: var(--bgcolor-2);
+}

@@ -1,0 +1,144 @@
+:root{
+    --primarycolor: #ff274b;
+    --secoundcolor: #f7bcf7;
+    --lightcolor: #ffffff;
+    --bgcolor-1: #171e1c;
+    --bgcolor-2: #22282a;
+    --padding: 6%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--lightcolor);
+}
+
+span{
+    color: var(--primarycolor);
+}
+.btn{
+    background-color: var(--primarycolor);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+}
+
+
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+}
+
+nav{
+    
+    padding-top: 2.8rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+nav ul li a {
+    color: var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+nav ul li a:hover{
+    color: var(--primarycolor);
+}
+
+hr{
+    position: relative;
+    top: 10px;
+    color: var(--primarycolor);
+    
+}
+
+.apps{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgcolor-1);
+    display: flex;
+    flex-direction: column;
+}
+
+.all{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 80%;
+    top: 40vh;
+    left: 12% ;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.all img{
+border-radius: 1rem;
+border: var(--primarycolor) solid 1rem;
+}
+
+.names{
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    top: 45vh;
+    font-size: 2.2rem;
+}
+.names a{
+    color: var(--lightcolor);
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    transition: 0.4s;
+    background-color: var(--primarycolor);
+    border-radius: 1rem;
+}
+.names a:hover{
+    color: var(--bgcolor-1);
+}
+.c1{
+    position: absolute;
+    left: 1rem;
+}
+.c2{
+    position: absolute;
+    left: 39%;
+}
+.c3{
+    position: absolute;
+    left: 78%;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    text-align: center;
+    text-transform: capitalize;
+}    
+
+
